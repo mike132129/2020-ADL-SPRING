@@ -1,4 +1,4 @@
-# bidd webcrawling
+# bid webcrawling
 
 1. please download webdriver [here](https://chromedriver.chromium.org/downloads).
 
