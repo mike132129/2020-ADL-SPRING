@@ -1,6 +1,6 @@
 # NTUADL2020
 
-Applied Deep Learning (2019 Spring) @ NTU
+Applied Deep Learning (2020 Spring) @ NTU
 
 [Course website link](https://www.csie.ntu.edu.tw/~miulab/s108-adl/syllabus?fbclid=IwAR1n5ldKrapBjMc6JV0uUkzU52SSzquBjk1cwh6kPHkS4v0d7TdPiyJm_f4)
 
