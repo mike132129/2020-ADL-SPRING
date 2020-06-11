@@ -29,34 +29,12 @@ Applied Deep Learning (2020 Spring) @ NTU
    - Training
    
      * BiLSTM for Summary Extraction
-          
-           def biLSTM():
-           	   Embedding
-               BiLSTM
-               TimeDistributed(Dense)
-               return model
-     
+
      * seq2seq for summary abstraction
-     		
-            def seq2seq():
-            	encoder:
-                	embedding
-                    lstm
-                
-                Decoder:
-                	embedding
-                    lstm
-                
-                TimeDistributed(Dense(# of word in dict))
-                return model
-      * seq2seq + attention for summary abstraction
+
+     * seq2seq + attention for summary abstraction
       		
-            def seq2seq_att():
-             	decoder, encoder = seq2seq
-                attention weight = dot(decoder, encoder)
-                context vector = dot(attention, encoder)                 
-                attention output = TimeDistributed(Dense([context, decoder]))
-                return model
+
            
      
            
