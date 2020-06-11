@@ -21,17 +21,17 @@ Applied Deep Learning (2020 Spring) @ NTU
    - Data Processing
      
      	 1. load pretrained embedding from Glove
-       2. Tokenization with keras tokenizer 
-          - Fit on text
-          - text to sequence
-          - pad sequence
+         2. Tokenization with keras tokenizer 
+            - Fit on text
+            - text to sequence
+            - pad sequence
           
    - Training
    
      * BiLSTM for Summary Extraction
           
            def biLSTM():
-           		 Embedding
+           	   Embedding
                BiLSTM
                TimeDistributed(Dense)
                return model
@@ -40,11 +40,11 @@ Applied Deep Learning (2020 Spring) @ NTU
      		
             def seq2seq():
             	encoder:
-                	  embedding
+                	embedding
                     lstm
                 
                 Decoder:
-                	  embedding
+                	embedding
                     lstm
                 
                 TimeDistributed(Dense(# of word in dict))
@@ -52,7 +52,7 @@ Applied Deep Learning (2020 Spring) @ NTU
       * seq2seq + attention for summary abstraction
       		
             def seq2seq_att():
-             	  decoder, encoder = seq2seq
+             	decoder, encoder = seq2seq
                 attention weight = dot(decoder, encoder)
                 context vector = dot(attention, encoder)                 
                 attention output = TimeDistributed(Dense([context, decoder]))
