@@ -1,5 +1,4 @@
 # ADL HW3
-Please don't revise test.py, environment.py,  atari_wrapper.py,  agent_dir/agent.py
 
 ## Installation
 Type the following command to install OpenAI Gym Atari environment.
